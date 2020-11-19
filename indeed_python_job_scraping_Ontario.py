@@ -11,7 +11,7 @@ import pandas as pd
 import time
 
 driver=webdriver.Chrome()
-url = 'https://www.indeed.ca/jobs?q=python&l=Alberta&start='
+url = 'https://www.indeed.ca/jobs?q=python&l=Ontario&start='
 data=driver.get(url)
 
 soup=BeautifulSoup(driver.page_source, 'html.parser') #can also use 'html.parser instead of lxml'
